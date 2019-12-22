@@ -50,7 +50,7 @@ public class RestaurantTest {
         Ticket ticket = restaurant.order("4 Tomato Mozzarella Salad");
         Meal meal = restaurant.retrieve(ticket);
         assertThat(meal.servedDishes()).isEqualTo(4);
-        assertThat(meal.cookingDuration()).isEqualTo("15");
+        assertThat(meal.cookingDuration()).isEqualTo(15);
     }
 
 
