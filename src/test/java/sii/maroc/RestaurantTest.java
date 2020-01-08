@@ -51,6 +51,7 @@ public class RestaurantTest {
      *
      * here : first = 6 ; 2nd = 3 ; 3rd = 3 ; 4th = 3 => 15 minutes
      */
+       
     @Test
     public void shouldCookFasterWhenDoingMultipleInstanceOfTheSameDish(){
     	
